@@ -2,11 +2,11 @@
 
 A 4x4 matrix-based game where a **Q-Learning RL Agent** competes against a **Mathematical Heuristic** to reach a singular state ($det(A) = 0$).
 
-## 🚀 Quick Start
+## Quick Start
 1. **Requirement:** Python 3.x (No external libraries required).
 2. **Run:** `python matrix_singularity_game.py`
 
-## 🎮 How to Play
+## How to Play
 - The matrix starts 10% pre-filled.
 - Agents take turns placing numbers (1–9).
 - The game ends when the matrix is singular or the board is full.
@@ -14,7 +14,7 @@ A 4x4 matrix-based game where a **Q-Learning RL Agent** competes against a **Mat
 
 ---
 
-## 🧠 Technical Documentation
+## Technical Description
 
 ### 1. Reinforcement Learning (Q-Learning)
 We implemented a **model-free, value-based** RL algorithm. The agent learns the "Quality" (Q-value) of actions through experience.
